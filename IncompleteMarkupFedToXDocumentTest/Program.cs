@@ -9,7 +9,7 @@ namespace IncompleteMarkupFedToXDocumentTest
     {
         static void Main(string[] args)
         {
-            var xml = @"<root><section><p>Paragraph 1.</p><p>Paragraph 2";
+            var xml = @"<root><section><p>Paragraph 1.</p><p>Paragraph 2.";
 
             XDocument doc = new XDocument();
 
